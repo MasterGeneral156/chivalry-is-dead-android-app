@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         });
         mywebView.getSettings().setJavaScriptEnabled(true);
         mywebView.getSettings().setDomStorageEnabled(true);
+        mywebView.getSettings().setUserAgentString("CID-App-Android");
         mywebView.loadUrl("http://chivalryisdead.x10.mx/");
     }
 
