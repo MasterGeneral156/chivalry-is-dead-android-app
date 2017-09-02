@@ -20,8 +20,6 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        VersionChecker.runChecker(this);
-
         mywebView = (WebView) findViewById(R.id.webview);
         mywebView.setWebChromeClient(new WebChromeClient());
         mywebView.setWebViewClient(new CustomWebViewClient());
@@ -44,12 +42,6 @@ public class MainActivity extends AppCompatActivity
         {
             super.onBackPressed();
         }
-    }
-    @Override
-    protected void onRestart()
-    {
-        super.onRestart();
-        VersionChecker.runChecker(this);
     }
     @Override
     protected void onResume()

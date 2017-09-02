@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="themastergeneral.chivalryisdead"
-    android:versionCode="10622"
-    android:versionName="1.0.6.22"
+    android:versionCode="10623"
+    android:versionName="1.0.6.23"
     android:installLocation="preferExternal" >
 
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
