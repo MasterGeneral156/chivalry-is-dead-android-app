@@ -28,7 +28,6 @@ public class MainActivity extends AppCompatActivity
         mywebView.getSettings().setDomStorageEnabled(true);
         mywebView.getSettings().setUserAgentString(AppData.UserAgent);
         mywebView.getSettings().setAppCacheEnabled(true);
-        mywebView.getSettings().setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
         mywebView.loadUrl(AppData.URL);
     }
     @Override
