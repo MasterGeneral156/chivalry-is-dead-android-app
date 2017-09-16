@@ -7,8 +7,8 @@ android {
         applicationId "themastergeneral.chivalryisdead"
         minSdkVersion 15
         targetSdkVersion 17
-        versionCode 10826
-        versionName '1.0.8.26'
+        versionCode 10827
+        versionName '1.0.8.27'
     }
     buildTypes {
         release {
