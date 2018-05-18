@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ChivalryisDead.iml" filepath="$PROJECT_DIR$/ChivalryisDead.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chivalry-is-dead-android-app.iml" filepath="$PROJECT_DIR$/chivalry-is-dead-android-app.iml" />
     </modules>
   </component>
 </project>
