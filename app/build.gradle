@@ -7,8 +7,8 @@ android {
         applicationId "com.chivalryisdeadgame.chivalryisdead"
         minSdkVersion 18
         targetSdkVersion 23
-        versionCode 110235
-        versionName '1.1.2.35'
+        versionCode 110336
+        versionName '1.1.3.36'
     }
     buildTypes {
         release {
