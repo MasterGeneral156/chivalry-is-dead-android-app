@@ -52,7 +52,6 @@ public class MainActivity extends Activity
     protected void onResume()
     {
         super.onResume();
-        VersionChecker.runChecker(this);
     }
     @Override
     public void onBackPressed() {
