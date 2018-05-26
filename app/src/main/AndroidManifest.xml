@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.chivalryisdeadgame.chivalryisdead"
-    android:versionCode="11539"
-    android:versionName="1.1.5.39"
+    android:versionCode="11640"
+    android:versionName="1.1.6.40"
     android:installLocation="preferExternal" >
 
     <uses-permission android:name="android.permission.INTERNET" />

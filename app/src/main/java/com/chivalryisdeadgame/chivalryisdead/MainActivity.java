@@ -3,6 +3,7 @@ package com.chivalryisdeadgame.chivalryisdead;
 import android.app.Activity;
 import android.os.Build;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
@@ -55,9 +56,11 @@ public class MainActivity extends Activity
     }
     @Override
     public void onBackPressed() {
-        if(mywebView.canGoBack()){
+        if (mywebView.canGoBack())
+        {
             mywebView.goBack();
-        } else {
+        }
+        else {
             super.onBackPressed();
         }
     }
