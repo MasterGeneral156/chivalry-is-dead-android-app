@@ -9,3 +9,4 @@
 *.apk
 app/app-release.apk
 *.ser
+app/release/output.json
