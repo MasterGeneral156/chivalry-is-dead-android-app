@@ -1,14 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 23
+    compileSdkVersion 26
     buildToolsVersion '27.0.3'
     defaultConfig {
         applicationId "com.chivalryisdeadgame.chivalryisdead"
         minSdkVersion 18
-        targetSdkVersion 23
-        versionCode 110437
-        versionName '1.1.4.37'
+        targetSdkVersion 26
+        versionCode 110538
+        versionName '1.1.5.38'
     }
     buildTypes {
         release {
